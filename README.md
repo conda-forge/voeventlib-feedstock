@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/voeventlib-feed
 
 Home: https://git.ligo.org/emfollow/VOEventLib
 
-Package license: GPLv3+
+Package license: GPL-3.0-or-later
 
 Summary: Python library to read, modify, and create VOEvents
 
