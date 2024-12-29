@@ -13,20 +13,22 @@ source:
   git_tag: 2452c5b81d6d6051b210f62355824ec7885669c1
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vvv "
 
 requirements:
   host:
-    - python >=3.5
+    - python {{ python_min }}
     - pip
     - setuptools
   run:
-    - python >=3.5
+    - python >={{ python_min }}
     - lxml
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - VOEventLib
     - VOEventLib.VOEvent
