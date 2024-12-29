@@ -37,8 +37,7 @@ test:
 about:
   home: https://git.ligo.org/emfollow/VOEventLib
   dev_url: https://git.ligo.org/emfollow/VOEventLib
-  license: GPLv3+
-  license_family: GPL
+  license: GPL-3.0-or-later
   license_file: LICENSE.md
   summary: Python library to read, modify, and create VOEvents
   description: Python library to read, modify, and create VOEvents
